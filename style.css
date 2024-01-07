@@ -201,9 +201,71 @@ hr{
     margin-top: 40px;
 }
 .page4{
-    
+    display: flex;
     width: 1280px;
   height: 600px;
   margin-left: 140px;
-background-color: aquamarine;
+
+align-items: center;
+justify-content: space-between;
+}
+
+.circle{
+    width: 364.844px;
+height: 364.844px;
+border-radius: 50%;
+border: 15px solid red;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/*  */
+.circle img{
+    height: 310px;
+    width: 310px;
+}
+.one h5{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+.one{
+    width: 393px;
+}
+.one h2{
+    color: #070211;
+    font-family: "Merriweather", serif;
+font-size: 48px;
+font-weight: 900;
+margin-top: 20px;
+}
+.one h6{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 20px;
+}
+.three h2{
+    color: #F00;
+    font-family: "Inter", sans-serif;
+font-size: 48px;
+font-weight: 700;
+
+}
+.three{
+    width: 276px;
+}
+.three h5{
+    color: rgba(0, 0, 0, 0.277);
+    font-family: "Inter", sans-serif;
+margin-top: 20px;
+font-size: 20px;
+font-weight: 500;
+}
+.three img{
+    margin-top: 20px;
 }
