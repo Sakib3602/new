@@ -1,6 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;1,800&family=Roboto:ital,wght@1,100;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;1,800&family=Roboto:ital,wght@1,100;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+  width: 100%;
+}
+.main-section {
+  background-image: url("./resources/Banner\ Image.png");
+  width: 1280px;
+  height: 600px;
+  border-radius: 16px;
+  margin-top: 50px;
+  margin-left: 140px;
+  /* margin-right: 140px; */
+  text-align: center;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+
+.main-section h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 200px;
+  position: relative;
+  z-index: 3;
+}
+.main-section h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  position: relative;
+  z-index: 3;
+}
+.main-section::after {
+  content: "";
+  position: absolute;
+  width: 1280px;
+  height: 600px;
+  border-radius: 16px;
+  margin-top: 50px;
+  margin-left: 140px;
+  background-color: rgba(0, 0, 0, 0.27);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.page1 h1 {
+  color: #f00;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+}
+.page1 h5 {
+  color: #f00;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.page1 h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.page1 img {
+  width: 802.9px;
+  height: 400px;
+  margin-top: 20px;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.page2-img {
+  background-image: url("./resources/Vectorrr.png");
+  width: 1280px;
+  height: 600px;
+  border-radius: 16px;
+  margin-top: 50px;
+  margin-left: 140px;
+  background-position: 0 10%;
+  display: flex;
+  position: relative;
+}
+hr{
+    margin-left: 140px;
+    width: 1280px;
+}
+.page2-img::after {
+  content: "";
+  position: absolute;
+  width: 1280px;
+  height: 600px;
+  background-color: #00000041;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+}
+.page2-img h1 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  position: relative;
+  z-index: 3;
+}
+.page2-img h6 {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  position: relative;
+  z-index: 3;
+  font-weight: 400;
+  line-height: 30px;
+}
+.page2-img button {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+}
+
+.page2-one {
+  margin-left: 126px;
+  width: 650px;
+}
+.page2-two {
+  margin-top: 68px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 3;
+}
+.page3 {
+  height: 100%;
+  width: 100%;
+}
+.page3-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  height: 482px;
+  margin-top: 120px;
+  border-radius: 10px;
+  margin-left: 140px;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), white);
+}
+.page3-box h2 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 56px;
+  
+}
+.margin-de{
+    margin-top: 100px;
+}
+.page3-box button{
+    height: 35px;
+    width: 120px;
+    background-color: #f00;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+.top{
+    margin-top: 40px;
+}
+.page4{
+    
+    width: 1280px;
+  height: 600px;
+  margin-left: 140px;
+background-color: aquamarine;
 }
