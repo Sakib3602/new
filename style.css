@@ -186,11 +186,11 @@ hr {
   margin-top: 100px;
 }
 .page3-box button {
-  height: 35px;
+  height: 50px;
   width: 120px;
   background-color: #f00;
   color: white;
-  font-weight: 400;
+  font-weight: 600;
   border: none;
   border-radius: 8px;
   margin-top: 80px;
@@ -510,3 +510,4 @@ margin-top: 50px;
   
   background-blend-mode: screen;
 }
+
