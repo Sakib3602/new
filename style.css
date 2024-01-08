@@ -503,8 +503,10 @@ margin-top: 50px;
 
 .fip {
   position: relative;
-  top: -130%;
-  left: 5%;
-  width: 600px;
-  height: 400px;
+  top: -200%;
+  left: 3%;
+  width: 740px;
+  height: 600px;
+  
+  background-blend-mode: screen;
 }
